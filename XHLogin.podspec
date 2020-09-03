@@ -10,7 +10,8 @@ Pod::Spec.new do |spec|
   spec.homepage         = "https://github.com/kailunzhou/XHLogin"
   spec.author           = { "zklcode" => "372909335@qq.com" }
   spec.source           = { :git => "https://github.com/kailunzhou/XHLogin.git", :tag => "0.0.2" }
-  spec.dependency       "ZCommonTool"
+  
+  spec.dependency       "ZCommonTool",   "~> 0.1.0"
   spec.dependency       "XHNetTool"
   spec.dependency       "MBProgressHUD"
   spec.dependency       "SnapKit"
