@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "XHLogin"
-  spec.version          = "0.0.2"
+  spec.version          = "0.0.3"
   spec.license          = "MIT"
   
   spec.summary          = "XHLogin summary"
@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.swift_version    = "4.2"
   spec.homepage         = "https://github.com/kailunzhou/XHLogin"
   spec.author           = { "zklcode" => "372909335@qq.com" }
-  spec.source           = { :git => "https://github.com/kailunzhou/XHLogin.git", :tag => "0.0.2" }
+  spec.source           = { :git => "https://github.com/kailunzhou/XHLogin.git", :tag => "0.0.3" }
   
   spec.dependency       "ZCommonTool",   "~> 0.1.0"
   spec.dependency       "XHNetTool"
