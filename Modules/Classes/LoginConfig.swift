@@ -8,7 +8,7 @@ import UIKit
 private let LoginConfigShareInstance = LoginConfig()
 
 open class LoginConfig {
-    class var share : LoginConfig {
+    public class var share : LoginConfig {
         return LoginConfigShareInstance
     }
     
